@@ -19,7 +19,7 @@ public class SubSets {
         List<List<Integer>> ans = new ArrayList<>();
         List<Integer> path = new ArrayList<>();
         dfs(ans,path,nums,0);
-        ans.add(new ArrayList<>());
+        ans.add(path);
         return ans;
     }
 
